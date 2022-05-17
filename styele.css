@@ -1,0 +1,68 @@
+*,
+**::before
+**::after{
+    box-sizing: border-box;
+    background-color: rgb(15, 71, 85);
+}
+.container{
+    text-align: left;
+    background-color: rgb(10, 48, 70);
+    color: aliceblue;
+    margin-top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 20%;
+    left: 20%;
+}
+Body{
+    background-color: rgb(10, 48, 70);
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 48, 70);
+}   
+
+button{
+    background-color: rgb(15, 71, 85);
+    size: 100px;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.price input{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: .5rem;
+}
+h2{
+    border: 100px;
+    color: aliceblue;
+    
+}
+.inner-fancy h2{
+    padding: 1rem 4rem;
+    box-shadow: 1px 1px 9px 0.1px black;  
+    padding: 4rem;
+}
+input{
+    background-color: rgb(10, 48, 70);
+    padding: 0.8rem;
+}
+.left-fancy{
+background-color: rgb(10, 48, 70);
+padding-left: 10rem;
+width: 70%;
+margin-left: -1rem;
+}
+
+.fancy{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 2rem;
+}
+.right-fancy{
+    display: flex;
+    flex-direction: column;
+}
